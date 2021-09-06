@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS produtos;
+
+CREATE TABLE produtos (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  nome_produto VARCHAR(250) NOT NULL,
+  descricao VARCHAR(250) NOT NULL,
+  mercado_alvo VARCHAR(250) NOT NULL,
+  tecnologias VARCHAR(250) NOT NULL
+);
